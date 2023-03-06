@@ -7,7 +7,7 @@ namespace CommandAPI.Models
     public class Command
     {
         [Key]
-   [Required]
+        [Required]
         public int Id { get; set; }
         [Required]
         [MaxLength(250)]
